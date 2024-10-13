@@ -1,0 +1,74 @@
+@media(max-width:1440px){
+    body{
+       min-height: 100vh;
+
+    }
+    
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .grid{
+        grid-template-areas: 'main-card'
+                             'card-work'
+                             'play'
+                             'study'
+                             'exercise'
+                             'social'
+                             'self-care';
+                             height: 80%;
+                             width: 420px;
+                             
+     }
+
+    .grid .main-card{
+        width: 400px;
+        height: 260px;
+        margin-left: 10px;
+    }
+
+    .main-card-profile {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       max-height: 200px;
+    
+    }
+
+    .image{
+        margin-top: 25px;
+        margin-right: 10px;
+    }
+
+    .teste .name{
+        font-size: 19px;
+        margin-bottom: 15px;
+    }
+
+    .days{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .cards{
+        margin: 10px;
+        height: 240px;
+        width: 400px;
+        margin-bottom: 10px;
+    }
+
+    .cards-info{
+        height: 150px;
+    }
+
+    .tempo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .tempo .horas, .previsao{
+        font-size: 25px;
+    }
+}

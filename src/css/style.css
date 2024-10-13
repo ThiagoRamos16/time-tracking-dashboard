@@ -1,0 +1,195 @@
+body{
+    font-family: "Rubik", sans-serif;
+    background-color: var(--background);
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.grid{
+    display: grid;
+    grid-template-areas: 'main-card card-work play study'
+                         'main-card  exercise social self-care ';
+                         
+    width: 60%;
+}
+
+.grid .main-card{
+    background-color: var( --card);
+    border-radius: 10px;
+    grid-area: main-card;
+    height: 520px;
+    width: 260px;
+ }
+
+
+
+.card-work{
+    background-color: var(--work);
+    grid-area: card-work;
+}
+
+.play{
+    background-color: var( --play);
+    grid-area: play;
+}
+
+.study{
+    background-color: var(--study);
+    grid-area: study;
+}
+
+.exercise{
+    background-color: var( --exercise);
+    grid-area: exercise;
+}
+
+.social{
+    background-color: var(--social);
+    grid-area: social;
+}
+
+.self-care{
+    background-color: var(--self-care);
+    grid-area: self-care;
+}
+
+.exercise, .social, .self-care{
+    margin-top: 20px;
+}
+
+
+.grid .main-card .main-card-profile{
+    background-color: var(--back-social);
+    border-radius: 10px;
+    padding: 35px;
+    height: 350px;
+}
+
+.main-card-profile .image{
+    width: 80px;
+    border: solid white 2px;
+    border-radius: 50%;
+    margin-bottom: 35px;
+}
+
+.main-card-profile img{
+    width: 100%;
+}
+
+.main-card-profile .info{
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: var(--neutral-text);
+}
+
+.main-card-profile .name{
+    font-size: 40px;
+    font-weight: 100;
+    color: white;
+}
+
+.days{
+   padding: 20px;
+   margin: 6px 12px;
+}
+
+.days .daily, .weekly{
+    margin-bottom: 18px;
+}
+
+.days .daily, .weekly, .monthly{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.days .daily, .monthly{
+    color: var(--neutral-text);
+}
+
+.days .weekly{
+    color: var(--text);
+}
+
+
+.cards{
+    height: 240px;
+    width: 250px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+.card-info{
+    background-color: var(--card);
+    height: 200px;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+    top: 50px;
+}
+
+.cards img{
+    width: 76px;
+    position: absolute;
+}
+
+.image-top{
+    display: flex;
+    justify-content: end;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 10px;
+ 
+}
+
+.top p{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.top .title{
+    color: white;
+}
+
+.top .tres-pontos{
+    color: var(--text);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+
+.card-info .horas{
+    font-size: 50px;
+    font-weight: 300;
+    color: white;
+    margin: 15px;
+}
+
+.card-info .previsao{
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--text);
+    margin: 15px;
+}
+
+
+
+
+
+
+
