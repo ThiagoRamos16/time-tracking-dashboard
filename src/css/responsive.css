@@ -10,6 +10,8 @@
     }
 
     .grid{
+        justify-content: center;
+        grid-gap: 12px;
         grid-template-areas: 'main-card'
                              'card-work'
                              'play'
@@ -18,31 +20,31 @@
                              'social'
                              'self-care';
                              height: 80%;
-                             width: 420px;
-                             
+                             width: 375px;
      }
 
     .grid .main-card{
-        width: 400px;
-        height: 260px;
-        margin-left: 10px;
+        width: 355px;
+        height: 220px;
+  
     }
 
     .main-card-profile {
        display: flex;
        justify-content: center;
        align-items: center;
-       max-height: 200px;
-    
+       max-height: 150px;
+        
     }
 
     .image{
         margin-top: 25px;
-        margin-right: 10px;
+        margin-right: 25px;
+
     }
 
     .teste .name{
-        font-size: 19px;
+        font-size: 20px;
         margin-bottom: 15px;
     }
 
@@ -52,14 +54,15 @@
     }
 
     .cards{
-        margin: 10px;
-        height: 240px;
-        width: 400px;
-        margin-bottom: 10px;
+
+        height: 190px;
+        width: 355px;
+        margin-bottom: 5px;
+   
     }
 
-    .cards-info{
-        height: 150px;
+    .card-info{
+        height: 140px;
     }
 
     .tempo{
@@ -71,4 +74,5 @@
     .tempo .horas, .previsao{
         font-size: 25px;
     }
+
 }

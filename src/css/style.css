@@ -122,47 +122,38 @@ body{
 .cards{
     height: 240px;
     width: 250px;
-    margin-bottom: 20px;
     border-radius: 10px;
+    position: relative;
 }
 
 
 .card-info{
     background-color: var(--card);
     height: 200px;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 20px;
-    position: relative;
-    top: 50px;
-}
-
-.cards img{
-    width: 76px;
     position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 .image-top{
     display: flex;
     justify-content: end;
+    height: 76px;
 }
 
 .top{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    text-align: center;
-    margin-bottom: 10px;
- 
-}
-
-.top p{
-    font-weight: 500;
-    font-size: 20px;
-    margin: 10px;
 }
 
 .top .title{
     color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 5px;
 }
 
 .top .tres-pontos{
@@ -177,14 +168,14 @@ body{
     font-size: 50px;
     font-weight: 300;
     color: white;
-    margin: 15px;
+    margin: 5px;
 }
 
 .card-info .previsao{
     font-size: 15px;
     font-weight: 300;
     color: var(--text);
-    margin: 15px;
+    margin: 5px;
 }
 
 
